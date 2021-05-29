@@ -153,7 +153,7 @@ version = "0.0.0"
 edition = "2018"
 
 [dependencies.compiler_builtins]
-version = "0.1.0"
+version = "=0.1.27"
 "#;
 
     let mut stoml = TOML.to_owned();
